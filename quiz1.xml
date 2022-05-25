@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE test [ 
+<!ELEMENT test (question+)>
+<!ELEMENT question (wording,choices)>
+<!ELEMENT wording (#PCDATA)>
+<!ELEMENT choices (choice+)>
+<!ELEMENT choice (#PCDATA)>
+ 
+<!ATTLIST question id CDATA #REQUIRED>
+<!ATTLIST choice correct (yes|no) "no">
+]>
+
+<test>
+<question id='1'>
+<wording>¿En qué año se hundió el Titanic en el Océano Atlántico el 15 de abril, en su viaje inaugural desde Southampton? </wording>
+<choices>
+<choice correct='yes'>1912</choice>
+<choice correct='no'>1913</choice>
+<choice correct='no'>1911</choice>
+<choice correct='no'>1915</choice>
+</choices>
+</question>
+<question id='2'>
+<wording>¿Cuál es el nombre de la compañía de tecnología más grande de Corea del Sur? </wording>
+<choices>
+<choice correct='yes'>Samsung</choice>
+<choice correct='no'>LG</choice>
+<choice correct='no'>Nokia</choice>
+<choice correct='no'>Xiaomi</choice>
+</choices>
+</question>
+<question id='3'>
+<wording>¿Qué metal fue descubierto por Hans Christian Oersted en 1825? </wording>
+<choices>
+<choice correct='yes'>Aluminio</choice>
+<choice correct='no'>Cobalto</choice>
+<choice correct='no'>Estaño</choice>
+<choice correct='no'>Tungsteno</choice>
+</choices>
+</question>
+<question id='4'>
+<wording>¿Cuántas respiraciones toma el cuerpo humano diariamente? </wording>
+<choices>
+<choice correct='yes'>20.000</choice>
+<choice correct='no'>25.000</choice>
+<choice correct='no'>15.000</choice>
+<choice correct='no'>30.000</choice>
+</choices>
+</question>
+<question id='5'>
+<wording>¿Cuál es el símbolo químico de la plata? </wording>
+<choices>
+<choice correct='yes'>Ag</choice>
+<choice correct='no'>Pt</choice>
+<choice correct='no'>Pl</choice>
+<choice correct='no'>Plt</choice>
+</choices>
+</question>
+<question id='6'>
+<wording>¿Qué país ganó la Copa Mundial de 1982 en España derrotando a Alemania Occidental 3-1? </wording>
+<choices>
+<choice correct='yes'>Italia</choice>
+<choice correct='no'>Francia</choice>
+<choice correct='no'>Inglaterra</choice>
+<choice correct='no'>Brasil</choice>
+</choices>
+</question>
+<question id='7'>
+<wording>¿En qué año fueron los Beatles por primera vez a los Estados Unidos?</wording>
+<choices>
+<choice correct='yes'>1964</choice>
+<choice correct='no'>1965</choice>
+<choice correct='no'>1963</choice>
+<choice correct='no'>1967</choice>
+</choices>
+</question>
+<question id='8'>
+<wording>'Future Nostalgia' que contiene el single 'Don't Start Now' es el segundo álbum de estudio de qué cantante inglés?</wording>
+<choices>
+<choice correct='yes'>Dua Lipa</choice>
+<choice correct='no'>Adele</choice>
+<choice correct='no'>David Bowie</choice>
+<choice correct='no'>Amy Winehouse</choice>
+</choices>
+</question>
+<question id='9'>
+<wording>¿'Perder mi religión' fue un éxito para qué Rock Band alternativo en 1991?</wording>
+<choices>
+<choice correct='yes'>REM</choice>
+<choice correct='no'>Betles</choice>
+<choice correct='no'>AC/DC</choice>
+<choice correct='no'>Rolling Stones</choice>
+</choices>
+</question>
+<question id='10'>
+<wording>¿De qué nacionalidad fue el escultor Alberto Giacometti?</wording>
+<choices>
+<choice correct='yes'>Suiza</choice>
+<choice correct='no'>Italiana</choice>
+<choice correct='no'>Argentina</choice>
+<choice correct='no'>De Candón</choice>
+</choices>
+</question>
+<question id='11'>
+<wording>¿Cuántos girasoles había en la tercera versión de Van Gogh de la pintura 'Girasoles'?</wording>
+<choices>
+<choice correct='yes'>12</choice>
+<choice correct='no'>13</choice>
+<choice correct='no'>11</choice>
+<choice correct='no'>15</choice>
+</choices>
+</question>
+<question id='12'>
+<wording>¿En qué parte del mundo se exhibe la Mona Lisa de Leonardo da Vinci?</wording>
+<choices>
+<choice correct='yes'>Museo del Louvre</choice>
+<choice correct='no'>Capilla Sixtina</choice>
+<choice correct='no'>Museo Gugenhein</choice>
+<choice correct='no'>Museo del Prado</choice>
+</choices>
+</question>
+<question id='13'>
+<wording>¿De qué nacionalidad era el artista Henri Matisse?</wording>
+<choices>
+<choice correct='yes'>Francés</choice>
+<choice correct='no'>Belga</choice>
+<choice correct='no'>Congoleño</choice>
+<choice correct='no'>De Alcorcon</choice>
+</choices>
+</question>
+<question id='14'>
+<wording>¿Cuál fue la primera película de Bond, llegando a las pantallas en 1962 con Sean Connery jugando 007?</wording>
+<choices>
+<choice correct='yes'>Dr. No</choice>
+<choice correct='no'>Dr. Yes</choice>
+<choice correct='no'>Dr. Octopus</choice>
+<choice correct='no'>Dr. Jiménez</choice>
+</choices>
+</question>
+<question id='15'>
+<wording> ¿Cuántas películas de Bond apareció Roger Moore como 007?</wording>
+<choices>
+<choice correct='yes'>7</choice>
+<choice correct='no'>8</choice>
+<choice correct='no'>9</choice>
+<choice correct='no'>5</choice>
+</choices>
+</question>
+<question id='16'>
+<wording> ¿Cuántas películas de Bond apareció Roger Moore como 007?</wording>
+<choices>
+<choice correct='yes'>7</choice>
+<choice correct='no'>8</choice>
+<choice correct='no'>9</choice>
+<choice correct='no'>5</choice>
+</choices>
+</question>
+<question id='17'>
+<wording>¿Qué decía la tarjeta de presentación de Al Capone de que era su ocupación? </wording>
+<choices>
+<choice correct='yes'>Vendedor de muebles usados</choice>
+<choice correct='no'>Vendedor de leche</choice>
+<choice correct='no'>Abogado</choice>
+<choice correct='no'>Prestamista</choice>
+</choices>
+</question>
+<question id='18'>
+<wording> ¿En qué año se lanzó The Godfather por primera vez? </wording>
+<choices>
+<choice correct='yes'>1972</choice>
+<choice correct='no'>1973</choice>
+<choice correct='no'>1971</choice>
+<choice correct='no'>1976</choice>
+</choices>
+</question>
+<question id='19'>
+<wording> Wimbledon 2017 fue ganado por la 14ta semilla que sorprendentemente derrotó a Venus Williams en la final. ¿Quien es ella? </wording>
+<choices>
+<choice correct='yes'>Garbiñe Muguruza</choice>
+<choice correct='no'>María Sharapova</choice>
+<choice correct='no'>Paula Badosa</choice>
+<choice correct='no'>Madison Keys</choice>
+</choices>
+</question>
+<question id='20'>
+<wording>¿Qué juego deportivo inventó James Naismith en 1891? </wording>
+<choices>
+<choice correct='yes'>Baloncesto</choice>
+<choice correct='no'>Fútbol</choice>
+<choice correct='no'>Tenis</choice>
+<choice correct='no'>Rugby</choice>
+</choices>
+</question>
+</test>
+
